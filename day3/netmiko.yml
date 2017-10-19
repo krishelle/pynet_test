@@ -1,0 +1,5 @@
+---
+- device_name: my_device
+  device_type: cisco_ios
+  host: cisco1.twb-tech.com
+  username: pyclass
