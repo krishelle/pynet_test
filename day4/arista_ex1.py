@@ -3,6 +3,15 @@
 from __future__ import print_function
 import pyeapi
 
+"""
+Use eapi to retrieve 'show ip route' from your arista switch.
+
+From the returned data structure retrieve the prefixes, the output
+interfaces, and the next hops (if available).
+
+Print these routes and the associated information to stdout.
+"""
+
 def main():
     host_name = 'arista1.twb-tech.com'
     username = 'pyclass'
